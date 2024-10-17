@@ -1,4 +1,4 @@
-Stock Code,Total Quantity,Quantity Per Set,ReelingFee,UnitPrice,ExtendedPrice,error
+Stock Code,Total Quantity,Quantity Per Set,ReelingFee,UnitPrice,ExtendedPrice,Error
 nf,200,4,N/A,N/A,N/A,"
             {
                 ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
@@ -6,7 +6,7 @@ nf,200,4,N/A,N/A,N/A,"
                 ""status"": 404,
                 ""detail"": ""Requested Product nf Not Found"",
                 ""instance"": """",
-                ""correlationId"": ""69f26fee-0869-4136-c62f-b93e760270fb"",
+                ""correlationId"": ""bfb400c7-8db4-4784-d7c0-c43d5b8276df"",
                 ""errors"": {}
             }
         "
@@ -22,7 +22,17 @@ RMCF0402FT1K00,300,6,4.5,0.0203,6.09,N/A
 RMCF0402FT1K00,150,3,4.5,0.0353,5.295,N/A
 "PCA9534BS,118",100,2,4.5,1.0258,102.58,N/A
 PCA9547BS_118,100,2,4.5,1.1083,110.83,N/A
-74HC4067PW-Q100J,100,2,4.5,0.5763,57.63,N/A
+74HC4067PW-Q100J,100,2,N/A,N/A,N/A,"
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.6.3"",
+                ""title"": ""Bad Gateway"",
+                ""status"": 502,
+                ""detail"": """",
+                ""instance"": """",
+                ""correlationId"": ""64d77824-3e66-488e-aa99-dd96306058e2"",
+                ""errors"": {}
+            }
+        "
 INA181A3IDBVT,400,8,4.5,0.44445,177.78,N/A
 MCP9843T-BE/ST,50,1,N/A,N/A,N/A,"
             {
@@ -31,7 +41,7 @@ MCP9843T-BE/ST,50,1,N/A,N/A,N/A,"
                 ""status"": 404,
                 ""detail"": ""Invalid resource path. Requested resource is not available"",
                 ""instance"": """",
-                ""correlationId"": ""1481e4b9-9504-4720-c3ba-7139e4a83b4b"",
+                ""correlationId"": ""efba9fe8-efe9-4cfa-9aef-5052e55f2273"",
                 ""errors"": {}
             }
         "
@@ -42,11 +52,21 @@ RPM5,50,1,N/A,N/A,N/A,"
                 ""status"": 404,
                 ""detail"": ""Requested Product RPM5 Not Found"",
                 ""instance"": """",
-                ""correlationId"": ""c679fa8e-ae5b-462e-a11d-b5a5039443e3"",
+                ""correlationId"": ""94dff4db-cd00-4ff0-fdbb-0630d84ec1a2"",
                 ""errors"": {}
             }
         "
-L78L33CD-TR,50,1,4.5,0.2696,13.48,N/A
+L78L33CD-TR,50,1,N/A,N/A,N/A,"
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.6.3"",
+                ""title"": ""Bad Gateway"",
+                ""status"": 502,
+                ""detail"": """",
+                ""instance"": """",
+                ""correlationId"": ""683c25da-e30f-4a97-8108-5de2f48ca69d"",
+                ""errors"": {}
+            }
+        "
 151031VS06000,200,4,N/A,N/A,N/A,"
             {
                 ""type"": """",
@@ -54,11 +74,21 @@ L78L33CD-TR,50,1,4.5,0.2696,13.48,N/A
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""52b7a8d5-1283-4cf8-a2e0-14305412840d"",
+                ""correlationId"": ""98cd67e6-1b06-45af-ca63-7ece68df68b3"",
                 ""errors"": {}
             }
         "
-DRTR5V0U2SR-7,750,15,4.5,0.10334,77.505,N/A
+DRTR5V0U2SR-7,750,15,N/A,N/A,N/A,"
+            {
+                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.6.3"",
+                ""title"": ""Bad Gateway"",
+                ""status"": 502,
+                ""detail"": """",
+                ""instance"": """",
+                ""correlationId"": ""4010b07d-f272-4c43-8c2e-6925064f0f62"",
+                ""errors"": {}
+            }
+        "
 2-644861-5,250,5,N/A,N/A,N/A,"
             {
                 ""type"": """",
@@ -66,7 +96,7 @@ DRTR5V0U2SR-7,750,15,4.5,0.10334,77.505,N/A
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""2af6dd32-2736-4a53-e8bd-60d9f5120178"",
+                ""correlationId"": ""90bf993b-14e1-429f-cc40-a58f92694590"",
                 ""errors"": {}
             }
         "
@@ -77,7 +107,7 @@ DRTR5V0U2SR-7,750,15,4.5,0.10334,77.505,N/A
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""347c0eb1-90c3-4cee-ccd6-2fb0418fb940"",
+                ""correlationId"": ""a02a15d8-a908-4fed-e082-25d016e0c4f6"",
                 ""errors"": {}
             }
         "
@@ -88,7 +118,7 @@ DRTR5V0U2SR-7,750,15,4.5,0.10334,77.505,N/A
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""efc8c080-8417-4eb7-e127-1199988763e3"",
+                ""correlationId"": ""db3db546-c8b3-4982-8f85-02acbd61dfb7"",
                 ""errors"": {}
             }
         "
@@ -99,7 +129,7 @@ DRTR5V0U2SR-7,750,15,4.5,0.10334,77.505,N/A
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""6e3a73f3-e658-43e5-87be-df1f452eae6d"",
+                ""correlationId"": ""6cd2d7b8-0283-4592-f791-f03a44f5fba8"",
                 ""errors"": {}
             }
         "
@@ -110,7 +140,7 @@ DRTR5V0U2SR-7,750,15,4.5,0.10334,77.505,N/A
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""864dbe83-febe-4aff-89ba-c7cd8654c37e"",
+                ""correlationId"": ""61309fd4-7ec0-4a10-e80d-3976d5df5d8f"",
                 ""errors"": {}
             }
         "
@@ -121,7 +151,7 @@ DRTR5V0U2SR-7,750,15,4.5,0.10334,77.505,N/A
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""a5e5ea2c-6426-497e-cbde-d572f136843a"",
+                ""correlationId"": ""5cfcc403-1b21-4a96-a075-cf3c615f2c1b"",
                 ""errors"": {}
             }
         "
@@ -132,7 +162,7 @@ RUSBF110-2,400,8,N/A,N/A,N/A,"
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""08dc0d93-ab91-4198-f917-94148b8e2e48"",
+                ""correlationId"": ""8358adbc-9b34-4ade-9004-1060559fa32c"",
                 ""errors"": {}
             }
         "
@@ -143,7 +173,7 @@ NO FIT,200,4,N/A,N/A,N/A,"
                 ""status"": 404,
                 ""detail"": ""Requested Product NO FIT Not Found"",
                 ""instance"": """",
-                ""correlationId"": ""51530e88-525e-4cf4-dccc-30c454a13478"",
+                ""correlationId"": ""9cf22b76-0f41-4f04-bb4a-77c2bdc1a8dd"",
                 ""errors"": {}
             }
         "
@@ -154,7 +184,7 @@ adafruit qt py,50,1,N/A,N/A,N/A,"
                 ""status"": 404,
                 ""detail"": ""Requested Product adafruit qt py Not Found"",
                 ""instance"": """",
-                ""correlationId"": ""5cf16e8f-17bc-428a-ea6a-45fc9f65c009"",
+                ""correlationId"": ""607d1c87-407c-4f9c-e1ca-29e53b558780"",
                 ""errors"": {}
             }
         "
@@ -165,7 +195,7 @@ adafruit qt py,50,1,N/A,N/A,N/A,"
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""44fa09c4-a990-449e-a823-2813fba3b6ec"",
+                ""correlationId"": ""6ef36125-ea07-4c7f-aa50-6265b3b78635"",
                 ""errors"": {}
             }
         "
@@ -177,7 +207,7 @@ L0603100GGSTR,100,2,4.5,0.3967,39.67,N/A
                 ""status"": 400,
                 ""detail"": """",
                 ""instance"": """",
-                ""correlationId"": ""5792ffad-b99b-46bf-e3ab-99bfefbb957c"",
+                ""correlationId"": ""fe508308-aa20-4dda-eef6-9d8b1c40fa58"",
                 ""errors"": {}
             }
         "
@@ -188,7 +218,7 @@ NO FIT,50,1,N/A,N/A,N/A,"
                 ""status"": 404,
                 ""detail"": ""Requested Product NO FIT Not Found"",
                 ""instance"": """",
-                ""correlationId"": ""4fab49cd-9d47-4bd6-951c-709acf311829"",
+                ""correlationId"": ""c41193cb-7d0f-425e-98d8-a51aee6505d0"",
                 ""errors"": {}
             }
         "

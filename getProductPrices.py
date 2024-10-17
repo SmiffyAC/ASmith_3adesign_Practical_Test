@@ -2,6 +2,11 @@ import requests
 import json
 import pandas as pd
 import csv
+import subprocess
+
+# Run the getAccessToken.py script to get a new access token
+print('Getting a new access token...')
+subprocess.run(['python', 'getAccessToken.py'])
 
 # Get client_id
 client_id = json.load(open('digikey_token.json'))['client_id']
@@ -79,5 +84,11 @@ with open(output_csv_filename, mode='w', newline='') as f:
             # Write the error message to the CSV file
             csv_writer.writerow([stock_code, set_quantity, quantity, 'N/A', 'N/A', 'N/A', response.text])
 
+df = pd.read_csv(output_csv_filename)
+# Ignore any rows with 'N/A' in the 'ExtendedPrice' column
+total_extended_price = df[df['ExtendedPrice'] != 'N/A']['ExtendedPrice'].sum()
+# Round the total extended price to 2 decimal places
+total_extended_price = round(total_extended_price, 2)
+print('Total Extended Price:', total_extended_price)
 # Print a message indicating the process is complete
 print('Price details saved to', output_csv_filename)
