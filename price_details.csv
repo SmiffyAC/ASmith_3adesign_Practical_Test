@@ -1,194 +1,34 @@
-Stock Code,Total Quantity,Quantity Per Set,ReelingFee,UnitPrice,ExtendedPrice,Error
-nf,200,4,N/A,N/A,N/A,"
-            {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product nf Not Found"",
-                ""instance"": """",
-                ""correlationId"": ""be528a43-a3d3-4ceb-ff95-7129a30d0cf4"",
-                ""errors"": {}
-            }
-        "
-TMK105BJ104KV-F,2300,46,4.5,0.01042,23.958,N/A
-CL21A106KAYNNNE,350,7,4.5,0.05286,18.5,N/A
-RC0402FR-07953RL,50,1,4.5,0.0956,4.78,N/A
-RC0402FR-073KL,900,18,4.5,0.0085,7.65,N/A
-RMCF0402FT1K00,1150,23,4.5,0.00684,7.8695,N/A
-CSRF1206FT10L0,400,8,4.5,0.17749,70.996,N/A
-ERJ-2RKF1800X,150,3,4.5,0.0396,5.94,N/A
-CRGCQ0402F4K7,350,7,4.5,0.02086,7.3,N/A
-RMCF0402FT1K00,300,6,4.5,0.0203,6.09,N/A
-RMCF0402FT1K00,150,3,4.5,0.0353,5.295,N/A
-"PCA9534BS,118",100,2,4.5,1.0258,102.58,N/A
-PCA9547BS_118,100,2,4.5,1.1083,110.83,N/A
-74HC4067PW-Q100J,100,2,4.5,0.5763,57.63,N/A
-INA181A3IDBVT,400,8,4.5,0.44445,177.78,N/A
-MCP9843T-BE/ST,50,1,N/A,N/A,N/A,"
-            {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Invalid resource path. Requested resource is not available"",
-                ""instance"": """",
-                ""correlationId"": ""0e76db48-9deb-4a69-fcb5-46483a7986f3"",
-                ""errors"": {}
-            }
-        "
-RPM5,50,1,N/A,N/A,N/A,"
-            {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product RPM5 Not Found"",
-                ""instance"": """",
-                ""correlationId"": ""20a86345-5d78-40b5-d096-a8c9d08b3daa"",
-                ""errors"": {}
-            }
-        "
-L78L33CD-TR,50,1,4.5,0.2696,13.48,N/A
-151031VS06000,200,4,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""69a85206-d392-4a1b-a5dd-ecb4dcc60192"",
-                ""errors"": {}
-            }
-        "
-DRTR5V0U2SR-7,750,15,4.5,0.10334,77.505,N/A
-2-644861-5,250,5,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""aa2992fd-a481-49cd-9247-5bb47037a449"",
-                ""errors"": {}
-            }
-        "
-2-644861-2,150,3,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""3a480c66-7fde-4ced-ac1c-2e43728c2be5"",
-                ""errors"": {}
-            }
-        "
-2-644861-6,400,8,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""fc0278b2-a5de-4e83-9d36-fa408eec300b"",
-                ""errors"": {}
-            }
-        "
-0ZRN0300FF1E,650,13,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""713abb07-b6a8-4b1d-dd3d-86f7da21136a"",
-                ""errors"": {}
-            }
-        "
-0ZRN0300FF1E,200,4,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""a943e029-4a64-4ec4-c46d-9b68c51de988"",
-                ""errors"": {}
-            }
-        "
-0ZRN0300FF1E,50,1,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""a062e30a-42ef-4e08-fe24-e95e8f115265"",
-                ""errors"": {}
-            }
-        "
-RUSBF110-2,400,8,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""a175c08d-9918-44d1-bb27-574e2d2cae86"",
-                ""errors"": {}
-            }
-        "
-NO FIT,200,4,N/A,N/A,N/A,"
-            {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product NO FIT Not Found"",
-                ""instance"": """",
-                ""correlationId"": ""5d53a09d-7235-4014-aa9d-7944bd0d2468"",
-                ""errors"": {}
-            }
-        "
-adafruit qt py,50,1,N/A,N/A,N/A,"
-            {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product adafruit qt py Not Found"",
-                ""instance"": """",
-                ""correlationId"": ""b1f6998d-1bfa-4e78-d0e7-7dcc76044e4a"",
-                ""errors"": {}
-            }
-        "
-2-644861-3,100,2,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""b5e6efcb-3a6f-4152-a645-259ffa8171a5"",
-                ""errors"": {}
-            }
-        "
-L0603100GGSTR,100,2,4.5,0.3967,39.67,N/A
-2-647123-9,50,1,N/A,N/A,N/A,"
-            {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
-                ""instance"": """",
-                ""correlationId"": ""7fac8b17-9fbc-450f-c2e6-00cad62d64aa"",
-                ""errors"": {}
-            }
-        "
-NO FIT,50,1,N/A,N/A,N/A,"
-            {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product NO FIT Not Found"",
-                ""instance"": """",
-                ""correlationId"": ""39f349a4-f974-4d38-b38a-55105ed3acb0"",
-                ""errors"": {}
-            }
-        "
+Stock Code,Total Quantity,Quantity Per Set,ReelingFee,UnitPrice,ExtendedPrice,Error Title
+nf,4,4,N/A,N/A,N/A,Too Many Requests
+TMK105BJ104KV-F,46,46,N/A,N/A,N/A,Too Many Requests
+CL21A106KAYNNNE,7,7,N/A,N/A,N/A,Too Many Requests
+RC0402FR-07953RL,1,1,N/A,N/A,N/A,Too Many Requests
+RC0402FR-073KL,18,18,N/A,N/A,N/A,Too Many Requests
+RMCF0402FT1K00,23,23,N/A,N/A,N/A,Too Many Requests
+CSRF1206FT10L0,8,8,N/A,N/A,N/A,Too Many Requests
+ERJ-2RKF1800X,3,3,N/A,N/A,N/A,Too Many Requests
+CRGCQ0402F4K7,7,7,N/A,N/A,N/A,Too Many Requests
+RMCF0402FT1K00,6,6,N/A,N/A,N/A,Too Many Requests
+RMCF0402FT1K00,3,3,N/A,N/A,N/A,Too Many Requests
+"PCA9534BS,118",2,2,N/A,N/A,N/A,Too Many Requests
+PCA9547BS_118,2,2,N/A,N/A,N/A,Too Many Requests
+74HC4067PW-Q100J,2,2,N/A,N/A,N/A,Too Many Requests
+INA181A3IDBVT,8,8,N/A,N/A,N/A,Too Many Requests
+MCP9843T-BE/ST,1,1,N/A,N/A,N/A,Too Many Requests
+RPM5,1,1,N/A,N/A,N/A,Too Many Requests
+L78L33CD-TR,1,1,N/A,N/A,N/A,Too Many Requests
+151031VS06000,4,4,N/A,N/A,N/A,Too Many Requests
+DRTR5V0U2SR-7,15,15,N/A,N/A,N/A,Too Many Requests
+2-644861-5,5,5,N/A,N/A,N/A,Too Many Requests
+2-644861-2,3,3,N/A,N/A,N/A,Too Many Requests
+2-644861-6,8,8,N/A,N/A,N/A,Too Many Requests
+0ZRN0300FF1E,13,13,N/A,N/A,N/A,Too Many Requests
+0ZRN0300FF1E,4,4,N/A,N/A,N/A,Too Many Requests
+0ZRN0300FF1E,1,1,N/A,N/A,N/A,Too Many Requests
+RUSBF110-2,8,8,N/A,N/A,N/A,Too Many Requests
+NO FIT,4,4,N/A,N/A,N/A,Too Many Requests
+adafruit qt py,1,1,N/A,N/A,N/A,Too Many Requests
+2-644861-3,2,2,N/A,N/A,N/A,Too Many Requests
+L0603100GGSTR,2,2,N/A,N/A,N/A,Too Many Requests
+2-647123-9,1,1,N/A,N/A,N/A,Too Many Requests
+NO FIT,1,1,N/A,N/A,N/A,Too Many Requests

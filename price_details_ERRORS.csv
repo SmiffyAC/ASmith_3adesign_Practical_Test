@@ -1,177 +1,364 @@
-Stock Code,Total Quantity,Quantity Per Set,ReelingFee,UnitPrice,ExtendedPrice,Error
-nf,200,4,N/A,N/A,N/A,"
+Category,Quantity,References,Value,Stock Code,Description,Unit Cost,PCB Package,Manufacturer,Error Title,Error Message
+Modules,4,M1-M4,M3 MOUNT,nf,,,M3 MOUNT HOLE,,Too Many Requests,"
             {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product nf Not Found"",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""be528a43-a3d3-4ceb-ff95-7129a30d0cf4"",
+                ""correlationId"": ""f6645efc-5d7f-48f3-b0ff-5a02cc3ef9db"",
                 ""errors"": {}
             }
         "
-MCP9843T-BE/ST,50,1,N/A,N/A,N/A,"
+Capacitors,46,"C1-C6,C8-C13,C15-C26,C28-C36,C39-C40,C43-C48,C51-C53,C55,C57",100nf,TMK105BJ104KV-F,"100nF, 16V nickel barrier SMT ceramic chip capacitor",,0402_CAP,Phycomp,Too Many Requests,"
             {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Invalid resource path. Requested resource is not available"",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""0e76db48-9deb-4a69-fcb5-46483a7986f3"",
+                ""correlationId"": ""e30771bb-02a3-4758-d792-daacf872dc39"",
                 ""errors"": {}
             }
         "
-RPM5,50,1,N/A,N/A,N/A,"
+Capacitors,7,"C7,C14,C27,C37-C38,C49-C50",10u,CL21A106KAYNNNE,Samsung,,0805_CAP,,Too Many Requests,"
             {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product RPM5 Not Found"",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""20a86345-5d78-40b5-d096-a8c9d08b3daa"",
+                ""correlationId"": ""38d1d199-4a70-441e-ecf1-469e988413f3"",
                 ""errors"": {}
             }
         "
-151031VS06000,200,4,N/A,N/A,N/A,"
+Resistors,1,R1,953R,RC0402FR-07953RL,YAGEO (PHYCOMP) RC0402F,,RESC1005X40N,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""69a85206-d392-4a1b-a5dd-ecb4dcc60192"",
+                ""correlationId"": ""b2882c99-00e0-48b4-fbcd-6efe26da3c64"",
                 ""errors"": {}
             }
         "
-2-644861-5,250,5,N/A,N/A,N/A,"
+Resistors,18,"R2,R7,R12,R16,R23,R30,R36,R39,R43,R45-R49,R57,R60,R62,R66",3K,RC0402FR-073KL,"YAGEO (PHYCOMP) - RC0402FR-073KL - RES, THICK FILM, 3K, 1%, 0.063W, 0402",,RESC1005X40N,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""aa2992fd-a481-49cd-9247-5bb47037a449"",
+                ""correlationId"": ""0023939f-de90-4a25-ecf3-cc2f10c04218"",
                 ""errors"": {}
             }
         "
-2-644861-2,150,3,N/A,N/A,N/A,"
+Resistors,23,"R3,R5,R8,R11,R13,R15,R17,R19,R24,R26,R31-R32,R38,R40,R42,R44,R51-R56,R58",1K,RMCF0402FT1K00,RES 1K OHM 1% 1/16W 0402,,RESC1005X40N,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""3a480c66-7fde-4ced-ac1c-2e43728c2be5"",
+                ""correlationId"": ""426b6ab2-9c1e-47e1-b0bd-1bb989ecff32"",
                 ""errors"": {}
             }
         "
-2-644861-6,400,8,N/A,N/A,N/A,"
+Resistors,8,"R4,R10,R14,R18,R22,R25,R33,R41",0.01R,CSRF1206FT10L0,"RES CS, 1206, 0.01 ohm, 1%, 1W",,RESC3216X84,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""fc0278b2-a5de-4e83-9d36-fa408eec300b"",
+                ""correlationId"": ""1e86694d-8e8d-4af9-e6a7-70bb62f969c0"",
                 ""errors"": {}
             }
         "
-0ZRN0300FF1E,650,13,N/A,N/A,N/A,"
+Resistors,3,"R6,R9,R59",180R,ERJ-2RKF1800X,"PANASONIC ELECTRONIC COMPONENTS - ERJ2RKF1800X - RES, THICK FILM, 180R, 1%, 0.1W, 0402",,ERJ2R_(0402),,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""713abb07-b6a8-4b1d-dd3d-86f7da21136a"",
+                ""correlationId"": ""886fc8a9-bb44-4cef-aebd-08a78fc084f7"",
                 ""errors"": {}
             }
         "
-0ZRN0300FF1E,200,4,N/A,N/A,N/A,"
+Resistors,7,"R20-R21,R27,R34-R35,R37,R50",4K7,CRGCQ0402F4K7,"TE CONNECTIVITY - CRGCQ0402F4K7 - SMD Chip Resistor, 0402 [1005 Metric], 4.7 kohm, CRGCQ Series, 50 V, Thick Film, 63 mW",,RESC1005X35N,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""a943e029-4a64-4ec4-c46d-9b68c51de988"",
+                ""correlationId"": ""59962190-685b-46da-9d18-a5f3702d289f"",
                 ""errors"": {}
             }
         "
-0ZRN0300FF1E,50,1,N/A,N/A,N/A,"
+Resistors,23,"R3,R5,R8,R11,R13,R15,R17,R19,R24,R26,R31-R32,R38,R40,R42,R44,R51-R56,R58",1K,RMCF0402FT1K00,RES 1K OHM 1% 1/16W 0402,,RESC1005X40N,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""a062e30a-42ef-4e08-fe24-e95e8f115265"",
+                ""correlationId"": ""cd832a98-70a8-4cd8-b4eb-71bc7b668b85"",
                 ""errors"": {}
             }
         "
-RUSBF110-2,400,8,N/A,N/A,N/A,"
+Resistors,23,"R3,R5,R8,R11,R13,R15,R17,R19,R24,R26,R31-R32,R38,R40,R42,R44,R51-R56,R58",1K,RMCF0402FT1K00,RES 1K OHM 1% 1/16W 0402,,RESC1005X40N,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""a175c08d-9918-44d1-bb27-574e2d2cae86"",
+                ""correlationId"": ""8d547c73-2c25-4e5d-967b-7f239ff86392"",
                 ""errors"": {}
             }
         "
-NO FIT,200,4,N/A,N/A,N/A,"
+Integrated Circuits,2,"U1,U11",PCA9534BS_118,"PCA9534BS,118","NXP PCA9534BS,118 I/O Expander HVQFN",,QFN65P400X400X100-17N-D,,Too Many Requests,"
             {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product NO FIT Not Found"",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""5d53a09d-7235-4014-aa9d-7944bd0d2468"",
+                ""correlationId"": ""bebe30b3-2c65-4cc4-efe7-9674b6b3fb26"",
                 ""errors"": {}
             }
         "
-adafruit qt py,50,1,N/A,N/A,N/A,"
+Integrated Circuits,2,"U2,U9",PCA9547BS_118,PCA9547BS_118,"Encoders, Decoders, Multiplexers & Demultiplexers 8-CH I2C MUX W/RESET",,QFN50P400X400X100-25N-D,,Too Many Requests,"
             {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product adafruit qt py Not Found"",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""b1f6998d-1bfa-4e78-d0e7-7dcc76044e4a"",
+                ""correlationId"": ""dfa11200-5e92-453c-d9f4-71ca172ed2c1"",
                 ""errors"": {}
             }
         "
-2-644861-3,100,2,N/A,N/A,N/A,"
+Integrated Circuits,2,"U3,U10",74HC4067PW-Q100J,74HC4067PW-Q100J,74HC(T)4067-Q100 - 16-channel analog multiplexer/demultiplexer@en-us,,SOP65P640X110-24N,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""b5e6efcb-3a6f-4152-a645-259ffa8171a5"",
+                ""correlationId"": ""2cecb534-80c8-46d1-d552-8304b9da30a3"",
                 ""errors"": {}
             }
         "
-2-647123-9,50,1,N/A,N/A,N/A,"
+Integrated Circuits,8,"U5,U14-U20",INA181A3IDBVT,INA181A3IDBVT,"26V, Bidirectional, 350kHz Bandwidth, Low- or High-Side Voltage Output Current Sense Amplifier",,SOT95P280X145-6N,,Too Many Requests,"
             {
-                ""type"": """",
-                ""title"": ""This item is not eligible for Digi-Reel pricing."",
-                ""status"": 400,
-                ""detail"": """",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""7fac8b17-9fbc-450f-c2e6-00cad62d64aa"",
+                ""correlationId"": ""74bef9e3-7ddc-4897-8811-3433d3c8eaeb"",
                 ""errors"": {}
             }
         "
-NO FIT,50,1,N/A,N/A,N/A,"
+Integrated Circuits,1,U6,MCP9843-BE_ST,MCP9843T-BE/ST,JEDEC Serial temperature sensor (Bgrade),,SOP65P640X120-8N,,Too Many Requests,"
             {
-                ""type"": ""https://tools.ietf.org/html/rfc7231#section-6.5.4"",
-                ""title"": ""Not Found"",
-                ""status"": 404,
-                ""detail"": ""Requested Product NO FIT Not Found"",
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
                 ""instance"": """",
-                ""correlationId"": ""39f349a4-f974-4d38-b38a-55105ed3acb0"",
+                ""correlationId"": ""d6250bed-a46f-4bb2-d31b-e607c816c54d"",
+                ""errors"": {}
+            }
+        "
+Integrated Circuits,1,U7,RPM5,RPM5,"RECOM POWER - RPM5.0-6.0 - Non Isolated POL DC/DC Converter, ITE, 1 Output, 30 W, 5 V, 6 A, Fixed, Adjustable",,RPM5060,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""84622c48-980e-4dc6-9582-90681aa5663b"",
+                ""errors"": {}
+            }
+        "
+Integrated Circuits,1,U8,L78L33CD-TR,L78L33CD-TR,"L78L33CD-TR, Voltage Regulator, 0.1A 3.3V, +/-10%, 8-Pin, SOIC",,SOIC127P600X175-8N,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""105730de-99b3-49c0-8de6-f2dcc9e15e78"",
+                ""errors"": {}
+            }
+        "
+Diodes,4,D1-D4,GREEN 3mm LED,151031VS06000,Generic light emitting diode (LED),,LEDC1608X60,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""046f3bdc-bcc6-4cff-871a-608c02f086f5"",
+                ""errors"": {}
+            }
+        "
+Diodes,15,D5-D19,DRTR5V0U2SR-7,DRTR5V0U2SR-7,"Diodes Inc DRTR5V0U2SR-7 Dual Uni-Directional TVS Diode Array, 400mW peak, 4-Pin SOT-143",,DRTR5V0U2SR7,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""f3f63fce-f8cb-4a66-c7ab-8daeac6c0e76"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,5,"ATTENUATOR1-ATTENUATOR4,FANS",2-644861-5,2-644861-5,"TE Connectivity MTA-100, 2.54mm Pitch, 5 Way, 1 Row, Straight PCB Header, Through Hole",,SHDR5W66P0X254_1X5_1483X795X1067P,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""756b3670-dfa9-46e8-c742-b91e734aec82"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,3,"CONVERTER1-CONVERTER2,USB1",2-644861-2,2-644861-2,"MTA-100 shrouded header, PCB, 2.54mm,2P TE Connectivity MTA-100 Series, 2.54mm Pitch 2 Way 1 Row Straight PCB Header, Solder Termination, 5A",,SHDR2W66P0X254_1X2_721X795X1067P,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""9c08171a-7c67-45f6-fb47-a099c7cefa45"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,8,DEV1-DEV8,2-644861-6,2-644861-6,Headers & Wire Housings HDR 06P VRT SHROUD,,26448616,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""6df7c0b5-7864-44ad-bce8-10e140bf2385"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,13,F1-F13,0ZRN0300FF1E,0ZRN0300FF1E,"BEL FUSE - 0ZRN0300FF1E - PTC RESETTABLE FUSE, 3A, 16VDC, TH",,0ZRN0300FF1E,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""5d490a52-7a74-467d-d9ff-9ae30d3bdd93"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,13,F1-F13,0ZRN0300FF1E,0ZRN0300FF1E,"BEL FUSE - 0ZRN0300FF1E - PTC RESETTABLE FUSE, 3A, 16VDC, TH",,0ZRN0300FF1E,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""7417d1d8-68a5-48bf-8880-425cb37b3cc0"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,13,F1-F13,0ZRN0300FF1E,0ZRN0300FF1E,"BEL FUSE - 0ZRN0300FF1E - PTC RESETTABLE FUSE, 3A, 16VDC, TH",,0ZRN0300FF1E,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""a8648485-9a13-48b5-bde8-e44ddfd70414"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,8,F19-F26,RUSBF110-2,RUSBF110-2,Resettable Fuses - PPTC Radial Lead 1.1A 16V 40A Imax,,RUSBF1102,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""64cdc888-bad8-4c84-b465-c2083f322fd5"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,4,"J1,J4,J6,V-TEST",3 WAY TEST PIN,NO FIT,0.1in pitch header block,,3 WAY TEST PINS,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""7f1f6133-5df2-4313-b0bd-91f42fb79c14"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,1,J2,ADAFRUIT QT PY,adafruit qt py,micro arduino,,ADAFRUIT QT PY,NorComp,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""e2e3f9b3-4a88-488a-adc9-09d89458359e"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,2,"J3,J5",2-644861-3,2-644861-3,"03P MTA100 SHRD HDR,W/O PEG SN",,SHDR3W64P0X254_1X3_975X795X1041P,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""89dd372e-3a6c-4a70-b289-82150aca3fe5"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,2,L1-L2,10nH,L0603100GGSTR,INDUCTOR THIN FILM 10nH 0603,,INDC1608X95,AVX,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""06e2c9f0-2d6b-4a23-f188-3f3543f9197b"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,1,SUPPLY,2-647123-9,2-647123-9,06P_MTA156_SHRD_HDR_ASSY_SQ_SN,,TE_26471239,TE_CONNECTIVITY,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""ed593ecf-9a73-440c-c090-c436847fa5c0"",
+                ""errors"": {}
+            }
+        "
+Miscellaneous,4,"J1,J4,J6,V-TEST",3 WAY TEST PIN,NO FIT,0.1in pitch header block,,3 WAY TEST PINS,,Too Many Requests,"
+            {
+                ""type"": ""https://www.rfc-editor.org/rfc/rfc6585.html#section-4"",
+                ""title"": ""Too Many Requests"",
+                ""status"": 429,
+                ""detail"": ""Daily Ratelimit exceeded. Please try again after the number of seconds in the Retry-After header"",
+                ""instance"": """",
+                ""correlationId"": ""dd0962da-a66c-4235-ce7a-6ed7651cc7ce"",
                 ""errors"": {}
             }
         "
