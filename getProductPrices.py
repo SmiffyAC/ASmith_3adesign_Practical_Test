@@ -8,6 +8,9 @@ client_id = json.load(open('digikey_token.json'))['client_id']
 # Get the access token
 access_token = json.load(open('access_token.json'))['access_token']
 
+# Ask the client for a number of sets
+number_of_sets = input('Enter the number of sets: ')
+
 # Open the CSV file
 csv_filename = 'Bill Of Materials PowerPortMax-v5.csv'
 df = pd.read_csv(csv_filename)
@@ -24,7 +27,7 @@ print(quantities_needed)
 # CSV output file name
 output_csv_filename = 'price_details.csv'
 # Define the headers for the CSV file
-csv_header = ['stock_code', 'quantity', 'ReelingFee', 'UnitPrice', 'ExtendedPrice', 'error']
+csv_header = ['Stock Code', 'Total Quantity', 'Quantity Per Set', 'ReelingFee', 'UnitPrice', 'ExtendedPrice', 'Error']
 
 # Open the csv file in write mode
 with open(output_csv_filename, mode='w', newline='') as f:
@@ -48,9 +51,12 @@ with open(output_csv_filename, mode='w', newline='') as f:
             'X-DIGIKEY-Customer-Id': '0'
         }
 
+        # Multiply the quantity by the number of sets
+        set_quantity = quantity * int(number_of_sets)
+
         # Query parameters
         params = {
-            'requestedQuantity': quantity
+            'requestedQuantity': set_quantity
         }
 
         # Make the GET request
@@ -66,12 +72,12 @@ with open(output_csv_filename, mode='w', newline='') as f:
             unit_price = json_response.get('UnitPrice', 'N/A')
             extended_price = json_response.get('ExtendedPrice', 'N/A')
             # Write the data to the CSV file
-            csv_writer.writerow([stock_code, quantity, reeling_fee, unit_price, extended_price, 'N/A'])
+            csv_writer.writerow([stock_code, set_quantity, quantity, reeling_fee, unit_price, extended_price, 'N/A'])
         else:
             # Print the error message
             print(f"Error: {response.status_code}, {response.text}")
             # Write the error message to the CSV file
-            csv_writer.writerow([stock_code, quantity, 'N/A', 'N/A', 'N/A', response.text])
+            csv_writer.writerow([stock_code, set_quantity, quantity, 'N/A', 'N/A', 'N/A', response.text])
 
 # Print a message indicating the process is complete
 print('Price details saved to', output_csv_filename)
